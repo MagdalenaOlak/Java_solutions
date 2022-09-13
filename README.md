@@ -4,4 +4,4 @@
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Divisible_indivisible_from_array](https://gist.github.com/MagdalenaOlak/bcdf26dbde0355b300d457ebbc345ac2) -  Napisz funkcję, która wypisze wszystkie liczby z ciągu, które spełniają łacznie następujące warunki:
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
-
+- [Bubble_Sorting](https://gist.github.com/MagdalenaOlak/cc7c9a8ffbfc8763636f5f0b2e381753) - Sort the array by bubble sorting.
