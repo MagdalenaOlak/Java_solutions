@@ -13,6 +13,6 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Greet the name from array.
 - [Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
 - [Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - pola prywatne (gettery i settery), oraz metody.
-- []() - 
+- [Klasa Kolo1 - Konstruktory](https://gist.github.com/MagdalenaOlak/cc5190cd41ec245774d750dcfa990103) - Klasa Kolo1 z zastosowaniem prostych konstruktorów
 - []() - 
 - []() - 
