@@ -49,10 +49,36 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 
 
-- []()
+- [Inverted Triangle Right](https://gist.github.com/MagdalenaOlak/b082ae6565ea3e69288643330b6cca53) - Draw an inverted equilateral triangle right with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
+
+                public class InvertedTriangleRight {
+
+                        public static void main(String[] args) {
+                                // TODO Auto-generated method stub
+                                int count = 1;
+                        int space = 1;
+                        int h = 6;
+                        for(int i = h; i >=1; i--)
+                        {
+                            for(int x = h - i ; x > 0; x--)
+                            {
+                                System.out.print("   ");
+                            }
+                            for(int y = i ; y > 0; y--)
+                            {
+                                System.out.print("*  ");
+                                count++;
+                            }
+                            System.out.println();
+                        }
+                        System.out.println("Liczba '*': " + count);
+                        }
+                }
 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/193445459-b94e56ca-f14b-4eb0-bd10-0b0317c40ffe.png" />
 </p>
      
+     
+- []()
