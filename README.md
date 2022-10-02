@@ -43,6 +43,10 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66574001/193445222-ed47a14e-5a2b-432a-b78e-bff9efd57667.jpg" />
+</p>
+
 
 - []()
 
