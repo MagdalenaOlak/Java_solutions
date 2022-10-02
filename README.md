@@ -20,7 +20,11 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
         7  -> 3 (because odd numbers below 7 are [1, 3, 5])
         15 -> 7 (because odd numbers below 15 are [1, 3, 5, 7, 9, 11, 13])
 
-- [InvertedTriangleLeft](https://gist.github.com/MagdalenaOlak/92fc65ce108a8fee1dc4b6ece1a74afa) - Draw an inverted equilateral triangle with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
+- [InvertedTriangleLeft](https://gist.github.com/MagdalenaOlak/92fc65ce108a8fee1dc4b6ece1a74afa) - Draw an inverted equilateral triangle like below with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66574001/193445531-dcf87bda-39c7-4efd-ae32-00d1ca072f04.png" />
+</p>
                
 
            public class InvertedTriangleLeft 
@@ -43,13 +47,15 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
+
+
+
+
+- [Inverted Triangle Right](https://gist.github.com/MagdalenaOlak/b082ae6565ea3e69288643330b6cca53) - Draw an inverted equilateral triangle right like below with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66574001/193445531-dcf87bda-39c7-4efd-ae32-00d1ca072f04.png" />
+  <img src="https://user-images.githubusercontent.com/66574001/193445459-b94e56ca-f14b-4eb0-bd10-0b0317c40ffe.png" />
 </p>
-
-
-
-- [Inverted Triangle Right](https://gist.github.com/MagdalenaOlak/b082ae6565ea3e69288643330b6cca53) - Draw an inverted equilateral triangle right with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
 
                 public class InvertedTriangleRight {
 
@@ -75,12 +81,10 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                 }
 
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/66574001/193445459-b94e56ca-f14b-4eb0-bd10-0b0317c40ffe.png" />
-</p>
+
      
      
-- [Inverted Christmas Tree](https://gist.github.com/MagdalenaOlak/f9b2e822a053362aa35b1123c3300934) - Draw an inverted Christmas treelike below with '*' characters taking the height of 6 levels. Enter the number of stars in the tree.
+- [Inverted Christmas Tree](https://gist.github.com/MagdalenaOlak/f9b2e822a053362aa35b1123c3300934) - Draw an inverted Christmas tree like below with '*' characters taking the height of 6 levels. Enter the number of stars in the tree.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/193446079-b6149092-d3aa-405e-a21e-9f7eccd475db.png" />
