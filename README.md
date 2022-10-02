@@ -144,7 +144,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                 }
 
 
-- []()  - Draw an equilateral triangle like below with '*' characters taking the number of stars in the base = 5. Each next level should have 1 star less. Enter the number of stars in the triangle.
+- [Triangle Left](https://gist.github.com/MagdalenaOlak/8eae00c1da6460fd8e083f9ca8da5843)  - Draw an equilateral triangle like below with '*' characters taking the number of stars in the base = 5. Each next level should have 1 star less. Enter the number of stars in the triangle.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/193447293-128c9bd7-b228-4c74-a5b9-e709e86bf33b.png" />
