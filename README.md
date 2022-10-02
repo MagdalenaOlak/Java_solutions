@@ -38,4 +38,23 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
      
-- []() - 
+- []()
+- public class InvertedTriangleLeft 
+                {
+                        public static void main(String[] args) 
+                        {
+                                // TODO Auto-generated method stub
+                                int count = 1;        
+                        int h = 6;
+                        for(int i = h; i >=1; i--)
+                        {
+                            for(int y = i ; y > 0; y--)
+                            {
+                                System.out.print("*  ");
+                                count++;
+                            }
+                            System.out.println();
+                        }
+                        System.out.println("Liczba '*': " + count);
+                        }
+                }
