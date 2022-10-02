@@ -17,5 +17,5 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Count Odd Numbers below n](https://gist.github.com/MagdalenaOlak/80a8d0812af9a435e5eb27d95dc23693) - Given a number n, return the number of positive odd numbers below n. Examples (Input -> Output):
         7  -> 3 (because odd numbers below 7 are [1, 3, 5])
         15 -> 7 (because odd numbers below 15 are [1, 3, 5, 7, 9, 11, 13])
-- []() - 
+- [Inverted right triangle](https://gist.github.com/MagdalenaOlak/92fc65ce108a8fee1dc4b6ece1a74afa) - Draw an inverted equilateral triangle with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
 - []() - 
