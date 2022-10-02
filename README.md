@@ -58,3 +58,25 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         System.out.println("Liczba '*': " + count);
                         }
                 }
+
+
+- [Staircase](https://www.hackerrank.com/challenges/staircase/problem?h_r=profile)
+
+        public static void staircase(int n) 
+            {       
+                for(int i = 1; i <= n; i++)
+                {
+                 int interspace = n - i;
+                 for(int j = 0; j < interspace; j++)
+                 {
+                     System.out.print(" ");
+                 }
+                 int hashtag = n-interspace;
+                 for(int k = 0; k < hashtag; k++)
+                 {
+                     System.out.print("#");
+                 } 
+                 System.out.println();
+                }   
+            }
+    
