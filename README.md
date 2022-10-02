@@ -38,7 +38,9 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
      
-- []()
+
+- [InvertedTriangleLeft]()
+
            public class InvertedTriangleLeft 
                 {
                         public static void main(String[] args) 
