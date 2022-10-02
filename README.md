@@ -55,8 +55,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
                         public static void main(String[] args) {
                                 // TODO Auto-generated method stub
-                                int count = 1;
-                        int space = 1;
+                                int count = 1;                        
                         int h = 6;
                         for(int i = h; i >=1; i--)
                         {
