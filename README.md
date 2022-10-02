@@ -44,10 +44,15 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                 }
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66574001/193445222-ed47a14e-5a2b-432a-b78e-bff9efd57667.jpg" />
+  <img src="https://user-images.githubusercontent.com/66574001/193445531-dcf87bda-39c7-4efd-ae32-00d1ca072f04.png" />
 </p>
+
 
 
 - []()
 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66574001/193445459-b94e56ca-f14b-4eb0-bd10-0b0317c40ffe.png" />
+</p>
      
