@@ -80,4 +80,35 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 </p>
      
      
+- [Inverted Christmas Tree](https://gist.github.com/MagdalenaOlak/f9b2e822a053362aa35b1123c3300934) - Draw an inverted Christmas treelike below with '*' characters taking the height of 6 levels. Enter the number of stars in the tree.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66574001/193446079-b6149092-d3aa-405e-a21e-9f7eccd475db.png" />
+</p>
+
+
+
+                public class InvertedChristmasTree {
+                        public static void main(String[] args) {
+                                // TODO Auto-generated method stub
+                                int count = 1;        
+                        int h = 6;
+                        for(int i = h; i >=1; i--)
+                        {
+                            for(int x = h - i ; x > 0; x--)
+                            {
+                                System.out.print("  ");
+                            }
+                            for(int y = 2 * i - 1 ; y > 0; y--)
+                            {
+                                System.out.print(" *");
+                                count++;
+                            }
+                            System.out.println();
+                        }
+                        System.out.println("Liczba '*': " + count);
+                        }
+                }
+
+
 - []()
