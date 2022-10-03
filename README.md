@@ -16,6 +16,78 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
 - [Kolo1 - Konstruktory](https://gist.github.com/MagdalenaOlak/cc5190cd41ec245774d750dcfa990103) - Klasa Kolo1 z zastosowaniem prostych konstruktorów
 - [Kolo2 - Pole statyczne Id oraz konstruktory rekursyjne](https://gist.github.com/MagdalenaOlak/0c84fa014025af56cf6a29573623ca43) - Pole statyczne Id odnoszące się do wszystkich obiektów klasy oraz konstruktory rekursyjne
+
+                public class Kolo2 
+                {
+                        private int id; 
+                        private static int nextId; 
+                        public int getId()
+                        {
+                                return id;
+                        }	                        
+                        public Kolo2 ()
+                        {
+                                this(1.0); 
+                        }                        
+                        public Kolo2 (double r)
+                        {
+                                this(r, "cos");                                                 
+                        }                        
+                        public Kolo2 (double r, String j)
+                        {
+                                id=nextId;
+                                nextId++; 
+                                promien = r;
+                                if(j.equals("km"))
+                                {
+                                        promien = promien * 1000;
+                                }
+                        }
+                        private static Kolo2 koleczko;
+                        private double promien;
+                        public void setPromien(double r) 
+                        {
+                                this.promien = r;
+                        }	
+                        public double GetPromien() {
+                                return promien;		
+                        }                        
+                        public double obliczObwodKola()
+                        {
+                                double obwod = 2*Math.PI*promien;		
+                                return obwod;			
+                        }
+                        public double obliczPoleKola() {
+                                double pole = Math.PI*promien*promien;
+                                return pole;		
+                        }
+                        public static void main(String[] args) 
+                        {
+                                // TODO Auto-generated method stub		
+
+                                Kolo2[] kolka = new Kolo2[3];
+                                kolka[0] = new Kolo2();
+                                kolka[1] = new Kolo2(3.5);
+                                kolka[2] = new Kolo2(6.5,"km");
+
+                                for (Kolo2 x:kolka)
+                                {
+                                System.out.println("ID kola wynosi: " + x.getId());
+                                System.out.println("Promien kola wynosi: " + x.GetPromien());		
+                                System.out.println("Obwod kola wynosi: " + x.obliczObwodKola());
+                                System.out.println("Pola kola wynosi: " + x.obliczPoleKola()); 
+                                System.out.println();
+                                }
+                        }
+                        static
+                        {
+                                nextId=1;
+
+                        }
+
+                }
+                
+
 - [Count Odd Numbers below n](https://gist.github.com/MagdalenaOlak/80a8d0812af9a435e5eb27d95dc23693) - Given a number n, return the number of positive odd numbers below n. Examples (Input -> Output):
         7  -> 3 (because odd numbers below 7 are [1, 3, 5])
         15 -> 7 (because odd numbers below 15 are [1, 3, 5, 7, 9, 11, 13])
