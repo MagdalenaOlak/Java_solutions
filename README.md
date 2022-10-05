@@ -15,6 +15,61 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
 - [Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
 - [Kolo1 - Konstruktory](https://gist.github.com/MagdalenaOlak/cc5190cd41ec245774d750dcfa990103) - Klasa Kolo1 z zastosowaniem prostych konstruktorów
+
+                    public class Kolo1 
+                    {	
+                      public Kolo1 ()
+                      {
+                        promien = 1.0;
+                      }	
+                      public Kolo1 (double r)
+                      {
+                        promien = r;
+                      }	
+                      public Kolo1 (double r, String j)
+                      {
+                        promien = r;
+                        if(j.equals("km"))
+                        {
+                          promien = promien * 1000;
+                        }
+                      }	
+                      private double promien;	
+                      public void setPromien(double r) 
+                      {
+                        this.promien = r;
+                      }	
+                      public double GetPromien() {
+                        return promien;		
+                      }	
+                      public double obliczObwodKola()
+                      {
+                        double obwod = 2*Math.PI*promien;		
+                        return obwod;			
+                      }
+                      public double obliczPoleKola() {
+                        double pole = Math.PI*promien*promien;
+                        return pole;		
+                      }
+
+                      public static void main(String[] args) 
+                      {
+                        // TODO Auto-generated method stub
+
+                        Kolo1 koleczko = new Kolo1(3.5);
+
+                      System.out.println("Promien kola wynosi: " + koleczko.GetPromien());		
+                      System.out.println("Obwod kola wynosi: " + koleczko.obliczObwodKola());
+                      System.out.println("Pola kola wynosi: " + koleczko.obliczPoleKola() + "\n");			
+                      Kolo1 kolko = new Kolo1(3, "km"); 
+
+                      System.out.println("Promien kola wynosi: " + kolko.GetPromien() + " m");		
+                      System.out.println("Obwod kola wynosi: " + kolko.obliczObwodKola() + " m");
+                      System.out.println("Pola kola wynosi: " + kolko.obliczPoleKola() + " m"); 
+                    }
+                  }
+
+
 - [Kolo2 - Pole statyczne Id oraz konstruktory rekursyjne](https://gist.github.com/MagdalenaOlak/0c84fa014025af56cf6a29573623ca43) - Pole statyczne Id odnoszące się do wszystkich obiektów klasy oraz konstruktory rekursyjne
 
                 public class Kolo2 
