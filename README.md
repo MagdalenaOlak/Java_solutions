@@ -331,4 +331,29 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                 }
 
 
+- [Średnia](https://gist.github.com/MagdalenaOlak/1eb6bfe7fafb333753380c7279828ed1) - A method for calculating the average of any string of digits.
+
+public class Srednia {
+	
+	public static void średnia(int... var)
+	{
+		double s = 0;
+		for(int x: var)
+		{
+			s = s +x;
+		}
+		s = s/var.length;
+		System.out.println("Średnia wynosi " + s);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		średnia(1,2,3,4,5);
+	}
+}
+
+
 - []()
+
