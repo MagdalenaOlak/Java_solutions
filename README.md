@@ -13,6 +13,38 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
 - [Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
 - [Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
+
+		public class Table_2D_create {
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+
+				int[][] tablica2D = new int[11][11];
+
+				for (int i = 1; i < 11; i++) {
+
+					for (int j = 1; j < 11; j++) {
+
+						tablica2D[i][j]= i*j;
+					}
+				}
+
+				for (int[] tablica1D : tablica2D) {
+				    // dopiero pętla wewnętrzna pobiera liczby
+				    for (int liczba : tablica1D) {
+					// dla liczb < 10 dodajemy 0 przed cyfrą
+					if (liczba < 10) 
+					    System.out.print("0"+liczba + ",");
+					else
+					    System.out.print(liczba + ",");
+				    }
+				    // nowa linia dla każdej 10-tki liczb
+				    System.out.println("");
+				}
+			}
+		}
+
+
 - [Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
 
                     public class Kolo 
