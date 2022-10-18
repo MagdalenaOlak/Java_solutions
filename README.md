@@ -12,7 +12,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Pyramid3D](https://gist.github.com/MagdalenaOlak/103b41a9287cb8bb4ddea458022dbdbf) - How many blocks are needed to build a 3D pyramid with a height h?
 - [Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
 
-import java.util.Scanner;
+		import java.util.Scanner;
 
 		public class Ilosc_wyr_w_stringu {
 
