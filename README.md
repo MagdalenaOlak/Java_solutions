@@ -11,6 +11,26 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Recursion](https://gist.github.com/MagdalenaOlak/b1fc17a476d11cff012daacc9f09d002) - On the console, write the numbers from 3 to 1, then the word 'Finidhed' and then the numbers from 1 to 3, using recursion.
 - [Pyramid3D](https://gist.github.com/MagdalenaOlak/103b41a9287cb8bb4ddea458022dbdbf) - How many blocks are needed to build a 3D pyramid with a height h?
 - [Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
+
+import java.util.Scanner;
+
+		public class Ilosc_wyr_w_stringu {
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+
+				Scanner odczyt = new Scanner(System.in);
+				System.out.print("Wpisz dowolne zdanie: ");
+				String tekst = odczyt.nextLine();
+				odczyt.close();
+				char[] lit = tekst.toCharArray();
+			int liczbaWyrazow = 1;
+			for(char litera: lit)
+			    if (litera == ' ') liczbaWyrazow++;
+			System.out.print("Wprowadzony tekst zawiera wyrazów: " + liczbaWyrazow);        
+			}
+		}
+
 - [Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
 
 		public class Imiona {
