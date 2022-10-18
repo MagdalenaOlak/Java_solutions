@@ -12,6 +12,22 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Pyramid3D](https://gist.github.com/MagdalenaOlak/103b41a9287cb8bb4ddea458022dbdbf) - How many blocks are needed to build a 3D pyramid with a height h?
 - [Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
 - [Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
+
+		public class Imiona {
+
+			public static void main(String[] args)  {
+				// TODO Auto-generated method stub				
+
+				String[] names = {"Marek", "Anna", "Wojtek", "Sylwia", "Patryk"}; // numeruje się od 0 czyli 0123
+
+				for(String name :names) {
+				    System.out.println("Witaj "+ name);	            
+			       }				
+			}
+		}
+
+
+
 - [Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
 
 		public class Table_2D_create {
