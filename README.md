@@ -8,6 +8,60 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Bubble_Sorting](https://gist.github.com/MagdalenaOlak/cc7c9a8ffbfc8763636f5f0b2e381753) - Sort the array by bubble sorting.
 - [Strings_array](https://gist.github.com/MagdalenaOlak/69bbd3dba4a600053fada7f6f5995813) - Ciąg zawieraja liter i cyfry od 0 do 9. Wypisz w konsoli po kolei wszystkie litery a cyfry zacstąp ich słownym odpowiednikiem. 
+
+		public class Strings_array {
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+				String[] phrase = {"a", "1", "2", "b", "9", "c", "0" };            
+
+				   String outPut = "";
+				   for (String c: phrase)
+				   { 
+					   if (c == "0")		   	
+					   {
+						   outPut += "zero";}
+					   else if (c == "1")
+					   {
+						   outPut += "jeden";}
+					   else if (c == "2")
+					   {
+						   outPut += "dwa";}
+					   else if (c == "3")
+					   {
+						   outPut += "trzy";}
+					   else if (c == "4")
+					   {
+						   outPut += "cztery";}
+					   else if (c == "5")
+					   {
+						   outPut += "pięć";}
+					   else if (c == "6")
+					   {
+						   outPut += "sześć";}
+					   else if (c == "7")
+					   {
+						   outPut += "siedem";}
+					   else if (c == "8")
+					   {
+						   outPut += "osiem";}
+					   else if (c == "9")
+					   {
+						   outPut += "dziewięć";}			   
+					   else
+					   {
+						   outPut += c ; 
+					   }
+					}    
+
+				   System.out.println(outPut);
+
+
+			}
+
+		}
+
+
 - [Recursion](https://gist.github.com/MagdalenaOlak/b1fc17a476d11cff012daacc9f09d002) - On the console, write the numbers from 3 to 1, then the word 'Finidhed' and then the numbers from 1 to 3, using recursion.
 
 		public class Recursion {
