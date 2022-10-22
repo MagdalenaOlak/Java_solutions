@@ -6,6 +6,26 @@ Java task solutions  with Gistr.
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 - [Divisible_indivisible_from_array](https://gist.github.com/MagdalenaOlak/bcdf26dbde0355b300d457ebbc345ac2) -  Napisz funkcję, która wypisze wszystkie liczby z ciągu, które spełniają łacznie następujące warunki:
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
+
+		public class Divisible_nondivisible_from_array {
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+				int[] tablica = {1, 15, 48, 45, 88, 75, 85 };
+
+			for (int i = 0; i < tablica.length; i++)
+			{
+			    if ((tablica[i] % 3 == 0 && tablica[i] % 5 == 0) && (tablica[i] % 6 != 0)) // podzielne przez 3 i 5 a niepodzielne przez 6
+			    {
+				System.out.println(tablica[i]);
+			    }
+			}
+		    }
+		}
+
+ 
+ 
+ 
 - [Bubble_Sorting](https://gist.github.com/MagdalenaOlak/cc7c9a8ffbfc8763636f5f0b2e381753) - Sort the array by bubble sorting.
 
 		public class Bubble_Sorting {
