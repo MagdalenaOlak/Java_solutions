@@ -514,6 +514,24 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
+- [Christmas Tree](https://gist.github.com/MagdalenaOlak/f9b2e822a053362aa35b1123c3300934) - Draw an Christmas tree like below with '*' characters taking the height of 6 levels. Enter the number of stars in the tree.
+
+<p align="center">
+![image](https://user-images.githubusercontent.com/66574001/197378454-b76f9e5b-79c8-4a3c-84dd-3ff285d969b7.png)
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
      
