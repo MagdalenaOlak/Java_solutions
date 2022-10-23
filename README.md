@@ -608,6 +608,46 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
+- [Triangle Right](https://gist.github.com/MagdalenaOlak/8eae00c1da6460fd8e083f9ca8da5843)  - Draw an equilateral triangle like below with '*' characters taken from the keyboard. Each next level should have 1 star more. Enter the number of stars in the triangle.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66574001/197380037-163332c0-c992-40f4-a8b2-a1ea433d7287.jpg" />
+</p>
+
+
+		import java.util.Scanner;
+
+		public class TriangleRight {
+
+			public static void main(String[] args) {
+
+
+				Scanner scanner = new Scanner(System.in);
+			Integer hightTree = scanner.nextInt();
+			int h = hightTree;
+			int count = 0;
+			for(int i = 1; i <= h; i++)
+			{
+				for(int x = h - i ; x > 0; x--)
+				    {
+					System.out.print("  ");
+				    }        	
+
+				for(int y = h - i; y < h; y++)
+			    {
+				System.out.print(" *");
+				count++;
+			    }
+			    System.out.println();
+			}
+			System.out.println("count of stars: "+ count);
+
+			}
+
+		}
+
+
+
 
 - [Średnia](https://gist.github.com/MagdalenaOlak/1eb6bfe7fafb333753380c7279828ed1) - A method for calculating the average of any string of digits.
 
