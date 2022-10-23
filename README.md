@@ -514,14 +514,38 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
-- [Christmas Tree](https://gist.github.com/MagdalenaOlak/f9b2e822a053362aa35b1123c3300934) - Draw an Christmas tree like below with '*' characters taking the height of 6 levels. Enter the number of stars in the tree.
+- [Christmas Tree](https://gist.github.com/MagdalenaOlak/bc25d4b66d8b3124e70b45dbdb0bdac3) - Draw a Christmas tree as below with the '*' characters taken from the keyboard. Enter the number of stars in the tree.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66574001/197378613-6d1ee242-128c-47e6-b589-ef1053a02e60.jpg" />
+  <img src="https://user-images.githubusercontent.com/66574001/197379153-9bf6f31b-0df4-434b-9042-794036150f1a.jpg" />
 </p>
 
+import java.util.Scanner;
 
+public class ChrustmasTree {
+	public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        Integer hightTree = scanner.nextInt();
+        int h = hightTree;
+        int count = 1;
+        for(int i = 1; i <= h; i++)
+        {
+            for(int x = h - i ; x > 0; x--)
+            {
+                System.out.print("  ");
+            }
+            for(int y = 2 * i - 1 ; y > 0; y--)
+            {
+                System.out.print(" *");
+                count++;
+            }
+            System.out.println();
+        }
+        System.out.println("C '*': " + count);
+    }
 
+}
 
 
 
