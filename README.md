@@ -608,7 +608,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
-- [Triangle Right](https://gist.github.com/MagdalenaOlak/8eae00c1da6460fd8e083f9ca8da5843)  - Draw an equilateral triangle like below with '*' characters taken from the keyboard. Each next level should have 1 star more. Enter the number of stars in the triangle.
+- [Triangle Right](https://gist.github.com/MagdalenaOlak/4e147401e44ac0168e18f9255a8aea5e)  - Draw an equilateral triangle like below with '*' characters taken from the keyboard. Each next level should have 1 star more. Enter the number of stars in the triangle.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/197380037-163332c0-c992-40f4-a8b2-a1ea433d7287.jpg" />
