@@ -622,7 +622,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 			public static void main(String[] args) {
 
 
-				Scanner scanner = new Scanner(System.in);
+			Scanner scanner = new Scanner(System.in);
 			Integer hightTree = scanner.nextInt();
 			int h = hightTree;
 			int count = 0;
@@ -650,6 +650,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 
 - [Średnia](https://gist.github.com/MagdalenaOlak/1eb6bfe7fafb333753380c7279828ed1) - A method for calculating the average of any string of digits.
+
 
 		public class Srednia {
 
