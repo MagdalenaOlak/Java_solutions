@@ -521,9 +521,15 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 </p>
 
 
-
-
-
+<p align="center">
+5
+         *
+       * * *
+     * * * * *
+   * * * * * * *
+ * * * * * * * * *
+Liczba '*': 26
+</p>
 
 
 
