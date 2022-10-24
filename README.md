@@ -674,7 +674,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- [ENUM kierunek Swiata i rozmiar pizzy]https://gist.github.com/MagdalenaOlak/de3e1d11f6d6f204c7e580261dd77c49()
+- [ENUM kierunek Swiata i rozmiar pizzy](https://gist.github.com/MagdalenaOlak/de3e1d11f6d6f204c7e580261dd77c49)
 
 - []()
 
