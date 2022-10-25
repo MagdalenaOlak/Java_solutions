@@ -1,13 +1,24 @@
 # Java_solutions
 
 Java task solutions  with Gistr.
-[Integers_divisible_indivisible](#integers)
+- [Integers_divisible_indivisible](#integers)
 - [Divisible_indivisible_from_array](#Divisible_indivisible_from_array)
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Bubble_Sorting](#Bubble_Sorting)
+- [Strings_array](#Strings_array)
+- [Recursion](#Recursion)
+- [Pyramid3D](#Pyramid3D)
+- [Number of words in the string](#Number of words in the string)
+- [Greet the name from array](#Greet the name from array)
+- [Table_2D_create](#Table_2D_create)
+- [Koło - obwód i promień](#Koło - obwód i promień)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
 
 <a name=""></a>
 
@@ -51,7 +62,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
  
  
  
-- <a name=""></a>[Bubble_Sorting](https://gist.github.com/MagdalenaOlak/cc7c9a8ffbfc8763636f5f0b2e381753) - Sort the array by bubble sorting.
+- <a name="Bubble_Sorting"></a>[Bubble_Sorting](https://gist.github.com/MagdalenaOlak/cc7c9a8ffbfc8763636f5f0b2e381753) - Sort the array by bubble sorting.
 
 		public class Bubble_Sorting {
 
@@ -81,7 +92,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- <a name=""></a>[Strings_array](https://gist.github.com/MagdalenaOlak/69bbd3dba4a600053fada7f6f5995813) - Ciąg zawieraja liter i cyfry od 0 do 9. Wypisz w konsoli po kolei wszystkie litery a cyfry zacstąp ich słownym odpowiednikiem. 
+- <a name="Strings_array"></a>[Strings_array](https://gist.github.com/MagdalenaOlak/69bbd3dba4a600053fada7f6f5995813) - Ciąg zawieraja liter i cyfry od 0 do 9. Wypisz w konsoli po kolei wszystkie litery a cyfry zacstąp ich słownym odpowiednikiem. 
 
 		public class Strings_array {
 
@@ -136,7 +147,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- <a name=""></a>[Recursion](https://gist.github.com/MagdalenaOlak/b1fc17a476d11cff012daacc9f09d002) - On the console, write the numbers from 3 to 1, then the word 'Finidhed' and then the numbers from 1 to 3, using recursion.
+- <a name="Recursion"></a>[Recursion](https://gist.github.com/MagdalenaOlak/b1fc17a476d11cff012daacc9f09d002) - On the console, write the numbers from 3 to 1, then the word 'Finidhed' and then the numbers from 1 to 3, using recursion.
 
 		public class Recursion {
 
@@ -164,7 +175,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		    }
 		}
 
-- <a name=""></a>[Pyramid3D](https://gist.github.com/MagdalenaOlak/103b41a9287cb8bb4ddea458022dbdbf) - How many blocks are needed to build a 3D pyramid with a height h?
+- <a name="Pyramid3D"></a>[Pyramid3D](https://gist.github.com/MagdalenaOlak/103b41a9287cb8bb4ddea458022dbdbf) - How many blocks are needed to build a 3D pyramid with a height h?
 
 		import java.util.Scanner;
 
@@ -197,7 +208,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- <a name=""></a>[Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
+- <a name="Number of words in the string"></a>[Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
 
 		import java.util.Scanner;
 
@@ -218,7 +229,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 			}
 		}
 
-- <a name=""></a>[Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
+- <a name="Greet the name from array"></a>[Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
 
 		public class Imiona {
 
@@ -235,7 +246,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 
 
-- <a name=""></a>[Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
+- <a name="Table_2D_create"></a>[Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
 
 		public class Table_2D_create {
 
@@ -268,7 +279,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- <a name=""></a>[Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
+- <a name="Koło - obwód i promień"></a>[Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
 
                     public class Kolo 
                     {
