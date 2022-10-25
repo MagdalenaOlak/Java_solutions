@@ -10,7 +10,7 @@ Java task solutions  with Gistr.
 - [Number of words in the string](#Number-of-words-in-th-string)
 - [Greet the name from array](#Greet-the-name-from-array)
 - [Table_2D_create](#Table_2D_create)
-- [Koło - obwód i promień](#Koło-obwód--promień)
+- [Koło - obwód i promień](#Kolo-obwod--promien)
 - [](#)
 - [](#)
 - [](#)
@@ -208,7 +208,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- <a name="Number of words in the string"></a>[Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
+- <a name="Number-of-words-in-th-string"></a>[Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
 
 		import java.util.Scanner;
 
@@ -229,7 +229,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 			}
 		}
 
-- <a name="Greet the name from array"></a>[Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
+- <a name="Greet-the-name-from-array"></a>[Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
 
 		public class Imiona {
 
@@ -279,7 +279,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- <a name="Koło - obwód i promień"></a>[Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
+- <a name="Kolo-obwod--promien"></a>[Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
 
                     public class Kolo 
                     {
