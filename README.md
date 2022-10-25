@@ -1,10 +1,18 @@
 # Java_solutions
 
 Java task solutions  with Gistr.
-1. [Introduction](#introduction)
+[Integers_divisible_indivisible](#integers)
+- [Divisible_indivisible_from_array](#Divisible_indivisible_from_array)
+- []()
+- []()
+- []()
+- []()
+- []()
+
+<a name=""></a>
 
 
-- [Integers_divisible_indivisible](https://gist.github.com/MagdalenaOlak/b1b240b7a36ef7faf003e2206d33e4b4) -  Napisz funkcję, która wypisze wszystkie liczby całkowite w zakresie od 1 do stu milionów, które spełniają łacznie następujące warunki:
+- <a name="integers"></a>[Integers_divisible_indivisible](https://gist.github.com/MagdalenaOlak/b1b240b7a36ef7faf003e2206d33e4b4) -  Napisz funkcję, która wypisze wszystkie liczby całkowite w zakresie od 1 do stu milionów, które spełniają łacznie następujące warunki:
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 		public class Integers {
@@ -21,7 +29,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- [Divisible_indivisible_from_array](https://gist.github.com/MagdalenaOlak/bcdf26dbde0355b300d457ebbc345ac2) -  Napisz funkcję, która wypisze wszystkie liczby z ciągu, które spełniają łacznie następujące warunki:
+- <a name="Divisible_indivisible_from_array">[Divisible_indivisible_from_array](https://gist.github.com/MagdalenaOlak/bcdf26dbde0355b300d457ebbc345ac2) -  Napisz funkcję, która wypisze wszystkie liczby z ciągu, które spełniają łacznie następujące warunki:
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 		public class Divisible_nondivisible_from_array {
@@ -43,7 +51,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
  
  
  
-- [Bubble_Sorting](https://gist.github.com/MagdalenaOlak/cc7c9a8ffbfc8763636f5f0b2e381753) - Sort the array by bubble sorting.
+- <a name=""></a>[Bubble_Sorting](https://gist.github.com/MagdalenaOlak/cc7c9a8ffbfc8763636f5f0b2e381753) - Sort the array by bubble sorting.
 
 		public class Bubble_Sorting {
 
@@ -73,7 +81,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
--<a name="introduction"></a> [Strings_array](https://gist.github.com/MagdalenaOlak/69bbd3dba4a600053fada7f6f5995813) - Ciąg zawieraja liter i cyfry od 0 do 9. Wypisz w konsoli po kolei wszystkie litery a cyfry zacstąp ich słownym odpowiednikiem. 
+- <a name=""></a>[Strings_array](https://gist.github.com/MagdalenaOlak/69bbd3dba4a600053fada7f6f5995813) - Ciąg zawieraja liter i cyfry od 0 do 9. Wypisz w konsoli po kolei wszystkie litery a cyfry zacstąp ich słownym odpowiednikiem. 
 
 		public class Strings_array {
 
@@ -128,7 +136,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- [Recursion](https://gist.github.com/MagdalenaOlak/b1fc17a476d11cff012daacc9f09d002) - On the console, write the numbers from 3 to 1, then the word 'Finidhed' and then the numbers from 1 to 3, using recursion.
+- <a name=""></a>[Recursion](https://gist.github.com/MagdalenaOlak/b1fc17a476d11cff012daacc9f09d002) - On the console, write the numbers from 3 to 1, then the word 'Finidhed' and then the numbers from 1 to 3, using recursion.
 
 		public class Recursion {
 
@@ -156,7 +164,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		    }
 		}
 
-- [Pyramid3D](https://gist.github.com/MagdalenaOlak/103b41a9287cb8bb4ddea458022dbdbf) - How many blocks are needed to build a 3D pyramid with a height h?
+- <a name=""></a>[Pyramid3D](https://gist.github.com/MagdalenaOlak/103b41a9287cb8bb4ddea458022dbdbf) - How many blocks are needed to build a 3D pyramid with a height h?
 
 		import java.util.Scanner;
 
@@ -189,7 +197,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- [Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
+- <a name=""></a>[Number of words in the string](https://gist.github.com/MagdalenaOlak/baae33b9eb5c4f388c5ad75da18eb521) - How many words are in the given string?
 
 		import java.util.Scanner;
 
@@ -210,7 +218,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 			}
 		}
 
-- [Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
+- <a name=""></a>[Greet the name from array](https://gist.github.com/MagdalenaOlak/fb20c985a242b1bbe8908d9df2f167f5) - Write a program in which you declare and create a five-element array of the appropriate type. In the loop, you will get 5 names from the user and save them in it. Then display "Hello name_ftom_array" notifications on the screen for each of the given parameters.
 
 		public class Imiona {
 
@@ -227,7 +235,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 
 
-- [Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
+- <a name=""></a>[Table_2D_create](https://gist.github.com/MagdalenaOlak/e2b88bdc4d3e6bc3c9d8599d0c03ae98) - Create the multiplication table.
 
 		public class Table_2D_create {
 
@@ -260,7 +268,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- [Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
+- <a name=""></a>[Koło - obwód i promień](https://gist.github.com/MagdalenaOlak/ba3a492f9c1ebe60ef40e2b8c06ad406) - Klasa Kolo - pola prywatne (gettery i settery), oraz metody.
 
                     public class Kolo 
                     {
@@ -294,7 +302,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                     }
 
 
-- [Kolo1 - Konstruktory](https://gist.github.com/MagdalenaOlak/cc5190cd41ec245774d750dcfa990103) - Klasa Kolo1 z zastosowaniem prostych konstruktorów
+- <a name=""></a>[Kolo1 - Konstruktory](https://gist.github.com/MagdalenaOlak/cc5190cd41ec245774d750dcfa990103) - Klasa Kolo1 z zastosowaniem prostych konstruktorów
 
                     public class Kolo1 
                     {	
@@ -350,7 +358,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                   }
 
 
-- [Kolo2 - Pole statyczne Id oraz konstruktory rekursyjne](https://gist.github.com/MagdalenaOlak/0c84fa014025af56cf6a29573623ca43) - Pole statyczne Id odnoszące się do wszystkich obiektów klasy oraz konstruktory rekursyjne
+- <a name=""></a>[Kolo2 - Pole statyczne Id oraz konstruktory rekursyjne](https://gist.github.com/MagdalenaOlak/0c84fa014025af56cf6a29573623ca43) - Pole statyczne Id odnoszące się do wszystkich obiektów klasy oraz konstruktory rekursyjne
 
                 public class Kolo2 
                 {
@@ -423,7 +431,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                 }
                 
 
-- [Count Odd Numbers below n](https://gist.github.com/MagdalenaOlak/80a8d0812af9a435e5eb27d95dc23693) - Given a number n, return the number of positive odd numbers below n. Examples (Input -> Output):
+- <a name=""></a>[Count Odd Numbers below n](https://gist.github.com/MagdalenaOlak/80a8d0812af9a435e5eb27d95dc23693) - Given a number n, return the number of positive odd numbers below n. Examples (Input -> Output):
         7  -> 3 (because odd numbers below 7 are [1, 3, 5])
         15 -> 7 (because odd numbers below 15 are [1, 3, 5, 7, 9, 11, 13])
         
@@ -456,7 +464,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 
 
-- [InvertedTriangleLeft](https://gist.github.com/MagdalenaOlak/92fc65ce108a8fee1dc4b6ece1a74afa) - Draw an inverted equilateral triangle like below with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
+- <a name=""></a>[InvertedTriangleLeft](https://gist.github.com/MagdalenaOlak/92fc65ce108a8fee1dc4b6ece1a74afa) - Draw an inverted equilateral triangle like below with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/193445531-dcf87bda-39c7-4efd-ae32-00d1ca072f04.png" />
@@ -487,7 +495,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 
 
-- [Inverted Triangle Right](https://gist.github.com/MagdalenaOlak/b082ae6565ea3e69288643330b6cca53) - Draw an inverted equilateral triangle right like below with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
+- <a name=""></a>[Inverted Triangle Right](https://gist.github.com/MagdalenaOlak/b082ae6565ea3e69288643330b6cca53) - Draw an inverted equilateral triangle right like below with '*' characters taking the number of stars in the base = 6. Each next level should have 1 star less. Enter the number of stars in the triangle.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/193445459-b94e56ca-f14b-4eb0-bd10-0b0317c40ffe.png" />
@@ -516,7 +524,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
-- [Christmas Tree](https://gist.github.com/MagdalenaOlak/bc25d4b66d8b3124e70b45dbdb0bdac3) - Draw a Christmas tree as below with the '*' characters taken from the keyboard. Enter the number of stars in the tree.
+- <a name=""></a>[Christmas Tree](https://gist.github.com/MagdalenaOlak/bc25d4b66d8b3124e70b45dbdb0bdac3) - Draw a Christmas tree as below with the '*' characters taken from the keyboard. Enter the number of stars in the tree.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/197379153-9bf6f31b-0df4-434b-9042-794036150f1a.jpg" />
@@ -553,7 +561,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
      
      
-- [Inverted Christmas Tree](https://gist.github.com/MagdalenaOlak/f9b2e822a053362aa35b1123c3300934) - Draw an inverted Christmas tree like below with '*' characters taking the height of 6 levels. Enter the number of stars in the tree.
+- <a name=""></a>[Inverted Christmas Tree](https://gist.github.com/MagdalenaOlak/f9b2e822a053362aa35b1123c3300934) - Draw an inverted Christmas tree like below with '*' characters taking the height of 6 levels. Enter the number of stars in the tree.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/193446079-b6149092-d3aa-405e-a21e-9f7eccd475db.png" />
@@ -584,7 +592,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                 }
 
 
-- [Triangle Left](https://gist.github.com/MagdalenaOlak/8eae00c1da6460fd8e083f9ca8da5843)  - Draw an equilateral triangle like below with '*' characters taking the number of stars in the base = 5. Each next level should have 1 star less. Enter the number of stars in the triangle.
+- <a name=""></a>[Triangle Left](https://gist.github.com/MagdalenaOlak/8eae00c1da6460fd8e083f9ca8da5843)  - Draw an equilateral triangle like below with '*' characters taking the number of stars in the base = 5. Each next level should have 1 star less. Enter the number of stars in the triangle.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/193447293-128c9bd7-b228-4c74-a5b9-e709e86bf33b.png" />
@@ -610,7 +618,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
                         }
                 }
 
-- [Triangle Right](https://gist.github.com/MagdalenaOlak/4e147401e44ac0168e18f9255a8aea5e)  - Draw an equilateral triangle like below with '*' characters taken from the keyboard. Each next level should have 1 star more. Enter the number of stars in the triangle.
+- <a name=""></a>[Triangle Right](https://gist.github.com/MagdalenaOlak/4e147401e44ac0168e18f9255a8aea5e)  - Draw an equilateral triangle like below with '*' characters taken from the keyboard. Each next level should have 1 star more. Enter the number of stars in the triangle.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66574001/197380037-163332c0-c992-40f4-a8b2-a1ea433d7287.jpg" />
@@ -651,7 +659,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 
 
 
-- [Średnia](https://gist.github.com/MagdalenaOlak/1eb6bfe7fafb333753380c7279828ed1) - A method for calculating the average of any string of digits.
+- <a name=""></a>[Średnia](https://gist.github.com/MagdalenaOlak/1eb6bfe7fafb333753380c7279828ed1) - A method for calculating the average of any string of digits.
 
 
 		public class Srednia {
@@ -676,7 +684,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- [ENUM kierunek Swiata i rozmiar pizzy](https://gist.github.com/MagdalenaOlak/de3e1d11f6d6f204c7e580261dd77c49)
+- <a name=""></a>[ENUM kierunek Swiata i rozmiar pizzy](https://gist.github.com/MagdalenaOlak/de3e1d11f6d6f204c7e580261dd77c49)
 
-- []()
+- <a name=""></a>[]()
 
