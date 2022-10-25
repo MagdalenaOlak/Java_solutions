@@ -1,9 +1,9 @@
 # Java_solutions
 
 Java task solutions  with Gistr.
-- [Integers_divisible_indivisible](#integers)
-- [Divisible_indivisible_from_array](#Divisible_indivisible_from_array)
-- [Bubble_Sorting](#Bubble_Sorting)
+- [1. Integers_divisible_indivisible](#integers)
+- [2. Divisible_indivisible_from_array](#Divisible_indivisible_from_array)
+- [3. Bubble_Sorting](#Bubble_Sorting)
 - [Strings_array](#Strings_array)
 - [Recursion](#Recursion)
 - [Pyramid3D](#Pyramid3D)
