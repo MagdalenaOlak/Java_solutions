@@ -1,7 +1,8 @@
 # Java_solutions
 
 Java task solutions  with Gistr.
-[Integers_divisible_indivisible](integers-divisible-indivisible)
+1. [Introduction](#introduction)
+
 
 - [Integers_divisible_indivisible](https://gist.github.com/MagdalenaOlak/b1b240b7a36ef7faf003e2206d33e4b4) -  Napisz funkcję, która wypisze wszystkie liczby całkowite w zakresie od 1 do stu milionów, które spełniają łacznie następujące warunki:
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
@@ -72,7 +73,7 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 		}
 
 
-- [Strings_array](https://gist.github.com/MagdalenaOlak/69bbd3dba4a600053fada7f6f5995813) - Ciąg zawieraja liter i cyfry od 0 do 9. Wypisz w konsoli po kolei wszystkie litery a cyfry zacstąp ich słownym odpowiednikiem. 
+-<a name="introduction"></a> [Strings_array](https://gist.github.com/MagdalenaOlak/69bbd3dba4a600053fada7f6f5995813) - Ciąg zawieraja liter i cyfry od 0 do 9. Wypisz w konsoli po kolei wszystkie litery a cyfry zacstąp ich słownym odpowiednikiem. 
 
 		public class Strings_array {
 
