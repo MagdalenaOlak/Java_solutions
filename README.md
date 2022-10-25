@@ -1,6 +1,7 @@
 # Java_solutions
 
 Java task solutions  with Gistr.
+[Integers_divisible_indivisible](integers-divisible-indivisible)
 
 - [Integers_divisible_indivisible](https://gist.github.com/MagdalenaOlak/b1b240b7a36ef7faf003e2206d33e4b4) -  Napisz funkcję, która wypisze wszystkie liczby całkowite w zakresie od 1 do stu milionów, które spełniają łacznie następujące warunki:
 Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
