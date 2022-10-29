@@ -677,111 +677,111 @@ Są podzielne przez 3 oraz przez 5, a także niepodzielne przez 6.
 20. <a name="srednia"></a>[Średnia](https://gist.github.com/MagdalenaOlak/1eb6bfe7fafb333753380c7279828ed1) - A method for calculating the average of any string of digits.
 
 
-		public class Srednia {
+			public class Srednia {
 
-			public static void średnia(int... var)
-			{
-				double s = 0;
-				for(int x: var)
+				public static void średnia(int... var)
 				{
-					s = s +x;
+					double s = 0;
+					for(int x: var)
+					{
+						s = s +x;
+					}
+					s = s/var.length;
+					System.out.println("Średnia wynosi " + s);
 				}
-				s = s/var.length;
-				System.out.println("Średnia wynosi " + s);
+
+
+				public static void main(String[] args) {
+					// TODO Auto-generated method stub
+
+					średnia(1,2,3,4,5);
+				}
 			}
-
-
-			public static void main(String[] args) {
-				// TODO Auto-generated method stub
-
-				średnia(1,2,3,4,5);
-			}
-		}
 
 
 21. <a name="ENUM"></a>[ENUM kierunek Swiata i rozmiar pizzy](https://gist.github.com/MagdalenaOlak/de3e1d11f6d6f204c7e580261dd77c49)
 
-		public enum KierunekSwiata {
-		    POLNOC,
-		    POLUDNIE,
-		    WSCHOD,
-		    ZACHOD;
-		}
-		public enum Pizza {
-		    MALA (20),
-		    DUZA (34),
-		    FAMILIJNA (42),
-		    XXL(50);
+			public enum KierunekSwiata {
+			    POLNOC,
+			    POLUDNIE,
+			    WSCHOD,
+			    ZACHOD;
+			}
+			public enum Pizza {
+			    MALA (20),
+			    DUZA (34),
+			    FAMILIJNA (42),
+			    XXL(50);
 
-		    // Tworzenie metody:
+			    // Tworzenie metody:
 
-		    public int rozmiar;
-		    private Pizza(int rozmiar){
-			this.rozmiar = rozmiar;
-		    }
-		}
-
-		public static void main(String[] args) {
-			// tworzymy zmienną:
-			KierunekSwiata kierunek = KierunekSwiata.POLUDNIE;
-			//wczytujemy:
-			System.out.println(kierunek);
-
-			if(kierunek == KierunekSwiata.POLNOC)        {
-			    System.out.println("Poszedł na północ.");
-			} else if (kierunek == KierunekSwiata.POLUDNIE) {
-			    System.out.println("Poszedł na południe.");
-			}else if (kierunek == KierunekSwiata.WSCHOD) {
-			    System.out.println("Poszedł na wschód.");
-			}else if (kierunek == KierunekSwiata.ZACHOD) {
-			    System.out.println("Poszedł na zachód.");
-			} else {
-			    System.out.println("Wybrałeś nieodpowiednią drogę.");
+			    public int rozmiar;
+			    private Pizza(int rozmiar){
+				this.rozmiar = rozmiar;
+			    }
 			}
 
-			// tworzymy zmienną:
-			KierunekSwiata kierunek1 = KierunekSwiata.POLNOC;
-			// Wczytujemy:
-			System.out.println(kierunek1);
+			public static void main(String[] args) {
+				// tworzymy zmienną:
+				KierunekSwiata kierunek = KierunekSwiata.POLUDNIE;
+				//wczytujemy:
+				System.out.println(kierunek);
 
-			switch(kierunek1){
-			    case POLNOC :
-				System.out.println("Poszedł na północ.");
-				break;
-			    case POLUDNIE :
-				System.out.println("Poszedł na południe.");
-				break;
-			    case WSCHOD :
-				System.out.println("Poszedł na wschód.");
-				break;
-			    case ZACHOD :
-				System.out.println("Poszedł na zachód.");
-				break;
-			    default :
-				System.out.println("Wybrałeś nieodpowiednią drogę.");
-				break;
-			}
+				if(kierunek == KierunekSwiata.POLNOC)        {
+				    System.out.println("Poszedł na północ.");
+				} else if (kierunek == KierunekSwiata.POLUDNIE) {
+				    System.out.println("Poszedł na południe.");
+				}else if (kierunek == KierunekSwiata.WSCHOD) {
+				    System.out.println("Poszedł na wschód.");
+				}else if (kierunek == KierunekSwiata.ZACHOD) {
+				    System.out.println("Poszedł na zachód.");
+				} else {
+				    System.out.println("Wybrałeś nieodpowiednią drogę.");
+				}
 
-			// Wyświetlanie indeksu konkretnego enuma
-			KierunekSwiata kierunekSwiata = KierunekSwiata.WSCHOD;
-			System.out.println("Metoda ordinal(): " + kierunekSwiata.ordinal());
+				// tworzymy zmienną:
+				KierunekSwiata kierunek1 = KierunekSwiata.POLNOC;
+				// Wczytujemy:
+				System.out.println(kierunek1);
 
-			// Tworzymy tablicę enumów i wyśiwetlamy listę enumów wraz z numerami indeksów:
-			KierunekSwiata[] kierunkiSwiata = KierunekSwiata.values();
-			for( int i = 0; i < kierunkiSwiata.length; i++)
-			{
-			    System.out.println("Enum index " + i + ": Kierunek " + kierunkiSwiata[i]);
-			}
+				switch(kierunek1){
+				    case POLNOC :
+					System.out.println("Poszedł na północ.");
+					break;
+				    case POLUDNIE :
+					System.out.println("Poszedł na południe.");
+					break;
+				    case WSCHOD :
+					System.out.println("Poszedł na wschód.");
+					break;
+				    case ZACHOD :
+					System.out.println("Poszedł na zachód.");
+					break;
+				    default :
+					System.out.println("Wybrałeś nieodpowiednią drogę.");
+					break;
+				}
 
-			// Wyśiwetlamy wartość enuma pod konkretnym indeksem
+				// Wyświetlanie indeksu konkretnego enuma
+				KierunekSwiata kierunekSwiata = KierunekSwiata.WSCHOD;
+				System.out.println("Metoda ordinal(): " + kierunekSwiata.ordinal());
 
-			KierunekSwiata ks = KierunekSwiata.values() [2];
-			System.out.println("Wartość wprowadzonego indeksu: " + ks);
+				// Tworzymy tablicę enumów i wyśiwetlamy listę enumów wraz z numerami indeksów:
+				KierunekSwiata[] kierunkiSwiata = KierunekSwiata.values();
+				for( int i = 0; i < kierunkiSwiata.length; i++)
+				{
+				    System.out.println("Enum index " + i + ": Kierunek " + kierunkiSwiata[i]);
+				}
 
-			// Wyświetlamy wartość pizzy z jej rozmiarem:
-			Pizza pizza = Pizza.XXL;
-			System.out.println("Zamówiłeś pizzę: " + pizza + " rozmiar " + pizza.rozmiar); 
-		    }
+				// Wyśiwetlamy wartość enuma pod konkretnym indeksem
+
+				KierunekSwiata ks = KierunekSwiata.values() [2];
+				System.out.println("Wartość wprowadzonego indeksu: " + ks);
+
+				// Wyświetlamy wartość pizzy z jej rozmiarem:
+				Pizza pizza = Pizza.XXL;
+				System.out.println("Zamówiłeś pizzę: " + pizza + " rozmiar " + pizza.rozmiar); 
+			    }
     
     
 
